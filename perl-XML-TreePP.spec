@@ -1,9 +1,9 @@
 %define upstream_name    XML-TreePP
-%define upstream_version 0.39
+%define upstream_version 0.41
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 4
+Release:    %mkrel 1
 
 Summary:    Pure Perl implementation for parsing/writing XML documents
 License:    GPL+ or Artistic
