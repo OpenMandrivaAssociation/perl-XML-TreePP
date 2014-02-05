@@ -1,15 +1,15 @@
 %define upstream_name    XML-TreePP
-%define upstream_version 0.41
+%define upstream_version 0.42
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Pure Perl implementation for parsing/writing XML documents
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/XML-TreePP-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(LWP)
@@ -69,3 +69,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Feb 27 2010 cpan2dist 0.39-1mdv
 - initial mdv release, generated with cpan2dist
+
